@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, height=device-height initial-scale=1.0">
+  <title>Назва сторінки</title>
+  <meta name="description" content="Короткий опис сторінки для пошукових систем">
+<style> 
+.typing {
+  width: 0;
+  overflow: hidden;
+  border-right: 4px solid;
+  animation: typing 1s steps(30) forwards, blink 0.2s infinite;
+  text-align: center;
+}
+@keyframes typing {
+  from { width: 0; }
+  to   { width: 120ch; }
+}
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+
+.textm {
+      font-size: 2rem;
+      letter-spacing: 0.5px;
+      animation: simpleAnimation 6s infinite;
+	  text-align: center;
+    }
+	
+	@keyframes simpleAnimation {
+      0%   { opacity: 0; }
+  
+      100% { opacity: 0.8; }
+    }
+	
+	.color-text {
+  animation: colorChange 4s infinite;
+  text-align: center;
+}
+@keyframes colorChange {
+  0%   { color: red; }
+  50%  { color: blue; }
+  100% { color: green; }
+}
+.pulse-text {
+  animation: pulse 1.5s infinite;
+  text-align: center;
+}
+@keyframes pulse {
+  0%   { transform: scale(1); }
+  50%  { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
+</style>
+</head>
+<body>
+<font size=5>
+<p class='typing'>Приклад анімації 1</p>
+<p class='color-text'>Приклад анімації 2</p>
+<p class='textm'>Приклад анімації 3</p>
+<p class='pulse-text'>Приклад анімації 4</p>
+
+<header>
+ <header style="background-color: grey;
+       
+</header>
+
+
+
+
+
+
+</body>
+</html>
